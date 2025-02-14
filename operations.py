@@ -13,9 +13,15 @@ print("Concatinated string is ", str1 + str2)
 str = input("Enter the string: ")
 n1 = int(input("Enter how many aplphabets to be sliced: "))
 
-print("Sliced string is ", str[n1:])'''
+print("Sliced string is ", str[n1:])
 
 # string reversing
 
 str = input("Enter string to be reversed: ")
-print("Reversed string is ", str[::-1])
+print("Reversed string is ", str[::-1])'''
+
+# item accessing 
+
+str = input("Enter a string: ")
+for letter in str:
+    print(letter)
