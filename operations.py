@@ -18,10 +18,20 @@ print("Sliced string is ", str[n1:])
 # string reversing
 
 str = input("Enter string to be reversed: ")
-print("Reversed string is ", str[::-1])'''
+print("Reversed string is ", str[::-1])
 
 # item accessing 
 
 str = input("Enter a string: ")
 for letter in str:
-    print(letter)
+    print(letter)'''
+
+# check whether letter is present
+
+str = input("Enter a string: ")
+letter = input("Enter a letter to check: ")
+
+if letter in str:
+    print("Letter ",letter, " is present in ", str)
+else:
+    print("Letter ",letter, " is not present in ", str)
