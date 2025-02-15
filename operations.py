@@ -3,7 +3,7 @@
 
 # string concatinate
 
-'''str1 = input("Enter 1st string: ")
+str1 = input("Enter 1st string: ")
 str2 = input("Enter 2nd string: ")
 
 print("Concatinated string is ", str1 + str2)
@@ -34,7 +34,7 @@ letter = input("Enter a letter to check: ")
 if letter in str:
     print("Letter ",letter, " is present in ", str)
 else:
-    print("Letter ",letter, " is not present in ", str)'''
+    print("Letter ",letter, " is not present in ", str)
 
 # replace a string 
 
