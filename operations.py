@@ -24,7 +24,7 @@ print("Reversed string is ", str[::-1])
 
 str = input("Enter a string: ")
 for letter in str:
-    print(letter)'''
+    print(letter)
 
 # check whether letter is present
 
@@ -34,4 +34,13 @@ letter = input("Enter a letter to check: ")
 if letter in str:
     print("Letter ",letter, " is present in ", str)
 else:
-    print("Letter ",letter, " is not present in ", str)
+    print("Letter ",letter, " is not present in ", str)'''
+
+# replace a string 
+
+str = input("Enter string of your choice: ")
+txt = input("Enter which string to be replaced: ")
+rep = input("Enter the string to be replaced: ")
+
+x = str.replace(txt,rep)
+print("The final string is ", x)
