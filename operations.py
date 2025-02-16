@@ -2,7 +2,7 @@
 
 
 # string concatinate
-
+'''
 str1 = input("Enter 1st string: ")
 str2 = input("Enter 2nd string: ")
 
@@ -43,4 +43,13 @@ txt = input("Enter which string to be replaced: ")
 rep = input("Enter the string to be replaced: ")
 
 x = str.replace(txt,rep)
-print("The final string is ", x)
+print("The final string is ", x)'''
+
+# check if string is empty or not
+
+str = input("Enter a string: ")
+s = " "
+if str == s:
+    print("The string is empty.")
+else: 
+    print("The string is not empty.")
