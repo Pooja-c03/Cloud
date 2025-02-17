@@ -2,7 +2,7 @@
 
 
 # string concatinate
-'''
+
 str1 = input("Enter 1st string: ")
 str2 = input("Enter 2nd string: ")
 
@@ -52,7 +52,7 @@ s = " "
 if str == s:
     print("The string is empty.")
 else: 
-    print("The string is not empty.")'''
+    print("The string is not empty.")
 
 # check vowel in a string
 
