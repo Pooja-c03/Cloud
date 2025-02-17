@@ -43,7 +43,7 @@ txt = input("Enter which string to be replaced: ")
 rep = input("Enter the string to be replaced: ")
 
 x = str.replace(txt,rep)
-print("The final string is ", x)'''
+print("The final string is ", x)
 
 # check if string is empty or not
 
@@ -52,4 +52,18 @@ s = " "
 if str == s:
     print("The string is empty.")
 else: 
-    print("The string is not empty.")
+    print("The string is not empty.")'''
+
+# check vowel in a string
+
+str = input("Enter a string: ")
+flag = 0
+for i in str:
+    if i in ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']:
+        flag = 1
+    else:
+        flag = 0
+if flag == 1:
+    print("String contains a vowel.")
+else:
+    print("String does not contain any vowel.")
